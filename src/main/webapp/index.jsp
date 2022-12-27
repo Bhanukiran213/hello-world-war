@@ -5,6 +5,7 @@
 	<h1> Welcome to Learndevops <h1>
 	<h1> Good Morning to everyone<h1>
          <h1> Everyday class starts by 7:30AM </h1>
+		<h1> From today we have a class at evening 4:00 pm aswell </h1>
 		<br>
 		<h1> Kiran created this page</h1>
 		<h1> This is Dev Environment</h1>
