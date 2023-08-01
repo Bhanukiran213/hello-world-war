@@ -30,4 +30,4 @@ jobs:
       run: |
 # Replace 'your_centos_server_ip' with the IP address or hostname of your CentOS server
 # Replace 'your_war_file_path' with the path where you want to store the WAR file on the CentOS server
-scp .github/workflows vishnulatha@192.168.60.76:/home/vishnulatha/hello-world-war/.github/workflows
+scp /home/vishnulatha/hello-world-war/dist vishnulatha@192.168.60.76:/home/vishnulatha/hello-world-war/.github/workflows
