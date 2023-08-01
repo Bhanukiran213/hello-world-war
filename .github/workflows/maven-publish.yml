@@ -30,4 +30,4 @@ jobs:
       run: |
 # Replace 'your_centos_server_ip' with the IP address or hostname of your CentOS server
 # Replace 'your_war_file_path' with the path where you want to store the WAR file on the CentOS server
-scp target/hello-world.war vishnulatha@192.168.60.76:/opt
+scp /home/vishnulatha/hello-world-war/dist/hello-world.war vishnulatha@192.168.60.76:/opt
