@@ -29,10 +29,6 @@ jobs:
     - name: Build with Maven
       run: mvn -B clean package --file pom.xml
 
-    - name: schedule job      
-        schedule:
-          - cron: "*/2 * * * *"
-
       #run: |
         # Transfer the WAR file to the Tomcat server using SCP or any other method.
        # scp -r *.war $SERVER_USERNAME@$SERVER_HOST:/$SERVER_USERNAME/github/
