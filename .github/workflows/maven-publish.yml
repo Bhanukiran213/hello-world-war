@@ -30,4 +30,4 @@ jobs:
     - name: deploy to local server
       run: scp hello-world-war/dist/hello-world.war vishnulatha@192.168.60.76:/home/vishnulatha/hello-world-war/.github/workflows/artifact
 # Replace 'your_war_file_path' with the path where you want to store the WAR file on the CentOS server
-#scp hello-world-war/dist/hello-world.war vishnulatha@192.168.60.76:/home/vishnulatha/hello-world-war/.github/workflows/artifacts
+#scp lalitha-999/hello-world-war/dist/hello-world.war vishnulatha@192.168.60.76:/home/vishnulatha/hello-world-war/.github/workflows/artifacts
