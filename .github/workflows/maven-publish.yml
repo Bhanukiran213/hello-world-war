@@ -34,4 +34,4 @@ jobs:
         SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
       run: |
         # Transfer the WAR file to the Tomcat server using SCP or any other method.
-        scp *.war $SERVER_USERNAME@$SERVER_HOST:/root/github/
+        scp -r *.war $SERVER_USERNAME@$SERVER_HOST:/$SERVER_USERNAME/github/
